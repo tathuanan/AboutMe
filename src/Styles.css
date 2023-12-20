@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-Header {
+  background: linear-gradient(#121212, #212b46);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-right: 20px;
+}
+
+.App-Header h1 {
+  width: 100%;
+}
+
+.App-HeaderImg {
+  margin-left: auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
